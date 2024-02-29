@@ -1,0 +1,257 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #fceabb;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #ffb347;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+.container {
+    padding: 20px;
+    text-align: center; /* Center the content horizontally */
+}
+
+.dashboard-content {
+    text-align: left; /* Reset text alignment for the content */
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 125px;
+    bottom: 130px;
+    background-color: #ffb347;
+    width: 250px; /* Adjust width as needed */
+    padding-top: 20px;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange items in a column */
+    align-items: flex-start; /* Align items to the start of the column */
+}
+
+.container {
+    padding: 0 20px;
+}
+
+h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+ul li a:hover {
+    color: #fff; /* Change color on hover as desired */
+}
+
+
+/* Highlight current page link */
+a.active {
+    font-weight: bold;
+    color: #ffd700;
+}
+
+/* Hero section styles */
+.hero {
+    background-color: #c2baba;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 0;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Taxi ranks table styles */
+.taxi-ranks {
+    padding: 50px 0;
+}
+
+#taxiRanksTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#taxiRanksTable th,
+#taxiRanksTable td {
+    padding: 15px; /* Increase padding */
+    border-bottom: 1px solid #ddd;
+}
+
+#taxiRanksTable th {
+    background-color: #ffb347;
+    color: #fff;
+    text-align: left;
+}
+
+.rank-link {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Add transition */
+}
+
+.rank-link:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Change color on hover */
+}
+
+/* Login form styles */
+.login-form {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.login-form h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ff5e62;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.form-group input {
+    width: 50%;
+    padding: 15px;
+    border: 2px solid #ffb347;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #ffb347;
+}
+
+button {
+    background-color: #ffb347;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff7f50;
+}
+
+p {
+    color: #333;
+    margin-top: 15px;
+}
+
+a {
+    color: #ff5e62;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.form-group {
+    text-align: center; /* Center align the content within the form group */
+}
+
+#destinationsFares {
+    margin: 0 auto; /* Center the table horizontally */
+}
+
+
+/* Footer styles */
+footer {
+    background-color: #ffb347;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin: 0;
+}
+
+/*footer p {
+    margin: 0;
+}
+/* Footer styles 
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+*/

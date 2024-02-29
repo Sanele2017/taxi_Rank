@@ -1,0 +1,117 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Change color on hover */
+}
+
+/* Admin Dashboard Styles */
+.admin-dashboard {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.admin-dashboard h2 {
+    font-size: 2.25rem;
+    margin-bottom: 30px;
+}
+
+.dashboard-content {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.activity-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.activity-list li {
+    font-size: 1.125rem;
+    margin-bottom: 15px;
+}
+
+.activity-list li strong {
+    color: #007bff;
+    font-weight: bold;
+}
+/* Add your CSS styles here */
+#quick-stats-chart {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
